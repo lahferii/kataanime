@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .article-text {
+    @apply text-gray-700 tracking-wider leading-relaxed
+  }
+  .secondary-text {
+    @apply text-sm text-gray-500 tracking-wider
+  }
+}
